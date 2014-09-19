@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Brain Quest</title>
+<link rel="shortcut icon" href="imgs/brainbraver.png" />
+<link rel="stylesheet" href="css/default.css" />
+<script src="js/default.js"></script>
+</head>
+
+<body onload="myFunction()">
+BrainBraver<br />
+<div id="demo"></div><br />
+<table border="0" style="border-collapse:collapse;">
+<tr><td><input type="button" value="1" onclick="num('1')" /></td><td><input type="button" value="2" onclick="num('2')" /></td><td><input type="button" value="3" onclick="num('3')" /></td></tr>
+<tr><td><input type="button" value="4" onclick="num('4')" /></td><td><input type="button" value="5" onclick="num('5')" /></td><td><input type="button" value="6" onclick="num('6')" /></td></tr>
+<tr><td><input type="button" value="7" onclick="num('7')" /></td><td ><input type="button" value="8" onclick="num('8')" /></td><td><input type="button" value="9" onclick="num('9')" /></td></tr>
+<tr><td title="Refresh" style="color:#0F0; font-size:20px; font-weight:bold; cursor:pointer;"><input class="special" type="button" value="&#174;" onclick="rfrsh()" /></td><td><input type="button" value="0" onclick="num('0')" /></td>
+<td title="Cancel" style="color:#F00; font-size:20px; font-weight:bold; cursor:pointer;"><input class="special" type="button" value="&#171;" onclick="cncl()" /></td></tr>
+</table>
+<div class="remarks">Click &#174; to restart braver.</div>
+<br />
+<div class="highestscore">Highest Score:<span id="highest"></span></div>
+<div class="yourscore">Your Score:<span id="current"></span></font></div>
+
+
+</body>
+</html>
